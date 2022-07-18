@@ -1,0 +1,55 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #090808; 
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.text {
+    margin-top: 20px;
+    line-height: 23px;
+    color: #828282;
+    max-width: 1090px;   
+}
+
+.button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090808;
+    display: block;
+    max-width: 370px;
+    padding: 20px 0;
+    box-shadow: 0 0 40px 40px #FFCC2D inset, 0 0 0 0 #FFCC2D;
+    transition: all 150ms ease-in-out;
+    margin-top: 40px ;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 0 #FFCC2D inset, 0 0 10px 4px #FFCC2D;
+}
